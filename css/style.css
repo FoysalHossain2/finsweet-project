@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Tilt+Warp&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6, a , p , div ,img , li {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-primary: #1C1E53;
+    --bg-secondary: #eef4fa;
+    --poppins: 'Poppins', sans-serif;
+    --text-color: rgba(40, 41, 56, 1);
+}
+
+/*--=============================================
+           navbar section design start
+=================================================-*/
+#navbar-part-section {
+    padding: 10px 0;
+    background-color: var(--bg-primary);
+}
+
+#navbar-part-section .custom-navbar  {
+    margin-right: 24px;
+}
+
+#navbar-part-section .custom-navbar ul li a {
+    color: #bbbbcb;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+#navbar-part-section .btn button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+/*--=======================================
+            navbar section design end 
+===========================================-*/
+
+/*--=======================================
+        banner section design start
+===========================================-*/
+#banner-part-section {
+    padding: 130px 0;
+    background-color: #fff;
+}
+
+#banner-part-section .banner-left-text h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#banner-part-section .banner-left-text h1 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    margin-top: 8px;
+}
+
+#banner-part-section .banner-left-text p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justified;
+    margin-top: 31px;
+    opacity: 0.7;
+}
+/*--=======================================
+        banner section design end
+===========================================-*/
+
+/*--=============================================
+        Goal focussed section design start
+================================================*/
+#Goal-focussed-part {
+    padding: 80px 0;
+    background-color: rgba(244, 245, 245, 1);
+}
+
+#Goal-focussed-part .goal-title h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#Goal-focussed-part .goal-left-text h3 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+#Goal-focussed-part .goal-left-text p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+/*--=============================================
+        Goal focussed section design end
+================================================*/
+
+
+/*--=============================================
+         process section design start
+================================================*/
+#process-part-section {
+    padding: 128px 0;
+}
+
+#process-part-section .text-center h2 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#process-part-section .follow-instruction-common {
+    margin-top: 60px;
+}
+
+#process-part-section .follow-instruction-common .images{
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+  }
+  
+#process-part-section .follow-instruction-common .images::after {
+    content: "......................";
+    letter-spacing: 4px;
+    font-size: 35px;
+    color: #2405f2;
+    display: inline-block;
+    vertical-align: 3px;
+    padding-left: 20px;
+    margin-top: -200px;
+    opacity: 0.7;
+}
+
+#process-part-section .follow-instruction-common .process-text-common h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 30px;
+}
+
+#process-part-section .follow-instruction-common .process-text-common p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+/*--=============================================
+         process section design end
+================================================*/
+
+/*--=============================================
+         our-mission vision section design start
+================================================*/
+#mission-vision-part {
+    padding: 128px 0;
+    background-color: var(--bg-secondary);
+}
+
+#mission-vision-part .our-mission-part h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#mission-vision-part .our-mission-part h3 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 16px;
+}
+
+#mission-vision-part .our-mission-part p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+    opacity: 0.7; 
+}
+
+#mission-vision-part .vision-part {
+    margin-top: 90px;
+}
+/*--=====================================================
+        our-mission vision  section design end
+=======================================================*/
+
+/*--=====================================================
+         benefits of working section design start
+=======================================================*/
+#benefits-of-working-part {
+    padding: 128px 0;
+}
+
+#benefits-of-working-part .header-part h2 {
+    color:var(--text-color);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#benefits-of-working-part .card-container {
+    padding: 50px 40px;
+    background-color: var(--bg-secondary);
+    margin-bottom: 48px;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#benefits-of-working-part .card-container .card-inner-text h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+#benefits-of-working-part .card-container .card-inner-text p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12px;
+    padding-right: px;
+    opacity: 0.7;
+}
+
+/*--=====================================================
+         benefits of working section design end
+=======================================================*/
+
+/*--=====================================================
+         meet-our-team part section design start
+=======================================================*/
+#meet-our-team-part {
+    padding: 128px 0;
+    background-color: var(--bg-secondary);
+}
+
+#meet-our-team-part .header-part h2 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+/* ///////overlay design start/////// */
+#meet-our-team-part .meet-team-part {
+    padding: 43px 64px;
+    background-color: #fff;
+}
+
+
+#meet-our-team-part .meet-team-part .overlay {
+    background: linear-gradient( rgb(255, 255, 255,0.3), rgb(26, 32, 220));
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    opacity: 0;
+}
+ 
+#meet-our-team-part .meet-team-part .meet-img:hover .overlay {
+    opacity: 1;
+}
+
+#meet-our-team-part .meet-team-part .overlay .social-icon a i {
+    margin-top: 130px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 8px;
+}
+/*//////// overlay design end/////// */
+
+#meet-our-team-part .meet-team-part .title-name h6 {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 30px;
+}
+
+#meet-our-team-part .meet-team-part .title-name p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/*--=====================================================
+         meet-our-team part section design end
+=======================================================*/
+
+/*--=====================================================
+         footer part section design start
+=======================================================*/
+#footer-part {
+    padding-top: 100px;
+    background-color: var(--bg-primary);
+}
+
+#footer-part .footer-left-text p {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+#footer-part  .footer-bottom-container {
+    background-color: #fcd980;
+    padding: 30px 0;
+    margin-top: 86px;
+}
+
+#footer-part  .footer-bottom-container .footer-bottom-part p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#footer-part  .footer-bottom-container .footer-bottom-part a {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#footer-part .footer-right-text h2 {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#footer-part .footer-right-text p {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#footer-part .footer-right-text .social-icon-footer a i {
+    margin-right: 25px;
+    font-size: 23px;
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-facebook-f"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-facebook-f"]:hover {
+    color: #fff;
+    background-color: #0866FF;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-twitter"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-twitter"]:hover {
+    color: #fff;
+    background-color: #0866FF;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-instagram"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-instagram"]:hover {
+    color: #fff;
+    background-color: rgb(228, 64, 95);
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-linkedin-in"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-right-text .social-icon-footer a [class="fa-brands fa-linkedin-in"]:hover {
+    color: #fff;
+    background-color: #0866FF;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+}
+
+/* ===============opy right part design================ */
+#copy-right {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+#copy-right .text p {
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#copy-right .menu ul li {
+    margin-right: 20px;
+    color: var(--text-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/*--=====================================================
+         footer part section design end
+=======================================================*/
+
+
+
+
+/* '''''''''''''''''''''''''''''''''''''''''''''''''''' */
+/*===========================================================================
+                 media  query responsive design start 
+==============================================================================*/
+
+/*--================================================
+          banner-part-section media query start
+===================================================-*/
+
+@media  (max-width:767px) {
+    #banner-part-section .banner-left-text h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+/*--================================================
+          banner-part-section media query end
+===================================================-*/
+
+/*-===============================================
+        Goal focussed section media query start
+===================================================- */  
+@media  (max-width:767px) {
+    #Goal-focussed-part .goal-left-text h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+/*-===============================================
+        Goal focussed section media query end
+===================================================- */ 
+
+/*-===============================================
+        process-part section media query start
+===================================================- */ 
+@media  (max-width:767px) {
+    #process-part-section .text-center h2 {
+        font-size: 37px;
+        font-weight: 600;
+    }
+}
+/*-===============================================
+        process-part section media query end
+===================================================- */ 
+
+/*-===================================================
+        our mission vision section media query start
+===================================================-== */ 
+@media  (max-width:767px) {
+    #mission-vision-part .our-mission-part h3 {
+        font-size: 29px;
+        font-weight: 600;
+    }
+    
+}
+/*-===================================================
+    our mission vision section media query end
+===================================================-== */ 
+
+/*-========================================================
+    benefits-of-working-part section media query start
+===================================================-====== */ 
+@media  (max-width:767px) {
+    #benefits-of-working-part .header-part h2 {
+        font-size: 37px;
+        font-weight: 600;
+    }
+    
+}
+
+@media  (max-width:991px) {
+    #benefits-of-working-part .user-number h3 {
+        font-size: 25px;
+    }
+    
+}
+/*-========================================================
+    benefits-of-working-part section media query end
+===================================================-====== */
+
+/*-========================================================
+    meet-our-team-part section media query end
+===================================================-====== */
+@media  (max-width:767px) {
+    #meet-our-team-part .header-part h2 {
+        font-size: 37px;
+        font-weight: 600;
+     
+    }
+}
